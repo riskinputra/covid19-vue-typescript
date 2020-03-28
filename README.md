@@ -21,10 +21,14 @@ yarn start
 ```
 
 ## Features
-- Equip with Vue.js, Vue-cli 3, Typescript, date-fns, lodash.
+- Equip with Vue.js, Vue-cli 3, Vuex, Typescript, date-fns, lodash.
 - Grid use Flexboxgrid
 - Stylesheets in scss
 
 ## Source API
 - [https://covid19.mathdro.id](https://covid19.mathdro.id)
 - [https://louislugas.github.io/covid_19_cluster/json/kasus-corona-indonesia.json](https://louislugas.github.io/covid_19_cluster/json/kasus-corona-indonesia.json)
+
+## Reference
+- [Vuex and Typescript](https://codeburst.io/vuex-and-typescript-3427ba78cfa8)
+- [Using TypeScript with Vue Single File Components](https://alligator.io/vuejs/using-typescript-with-vue/)
