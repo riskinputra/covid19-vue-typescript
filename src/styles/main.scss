@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import './variables';
+@import './flexboxgrid';
+@import './margin';
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $font-m;
+  background-color: $dark;
+  color: $white;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+
+.blue {
+  color: #92C7E8;
+}
+.green {
+  color: #CEE8CA;
+}
+.red {
+  color: #F27070;
+}
