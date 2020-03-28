@@ -1,10 +1,10 @@
 import API_SETUP from '@/helper/API'
-import { globalCaseTypes } from '@/types/globalCase'
+import { GlobalCaseTypes } from '@/types/globalCase'
 
 const GET_API_GLOBAL = (path: string) => {
   const promise = new Promise((resolve, reject) => {
     API_SETUP.API_DEFAULT.get(path)
-      .then((result: globalCaseTypes) => {
+      .then((result: GlobalCaseTypes) => {
         resolve(result)
       })
       .catch((err: any) => {

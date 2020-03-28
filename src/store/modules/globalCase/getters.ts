@@ -1,5 +1,5 @@
 import { GetterTree } from 'vuex';
-import { globalCaseState } from '@/types/globalCase'
+import { GlobalCaseState } from '@/types/globalCase'
 import { RootState } from '@/types/rootState';
 
-export const getters: GetterTree<globalCaseState, RootState> = {};
+export const getters: GetterTree<GlobalCaseState, RootState> = {};
